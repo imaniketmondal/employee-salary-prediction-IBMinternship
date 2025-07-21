@@ -71,10 +71,10 @@ This is a classic binary classification problem.
 
 🔐 ngrok Authentication
 Before using ngrok for the first time, you'll need to log in and set up your auth token:
-# Step 1: Login or sign up at ngrok.com
-# Step 2: Copy your auth token from your ngrok dashboard
+Step 1: Login or sign up at ngrok.com
+Step 2: Copy your auth token from your ngrok dashboard
 
-# Step 3: Authenticate ngrok in your terminal
+Step 3: Authenticate ngrok in your terminal
 ngrok config add-authtoken <your-auth-token>
 This step is required only once to link your ngrok account with your local system.
 
