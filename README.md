@@ -11,10 +11,6 @@ This project predicts whether an individual's annual salary exceeds **$50K** bas
 - [Dataset](#-dataset)
 - [System Workflow](#-system-workflow)
 - [Deployment](#-deployment)
-- [Getting Started](#-getting-started)
-- [Results](#-results)
-- [Future Scope](#-future-scope)
-- [References](#-references)
 
 ---
 
@@ -67,7 +63,7 @@ This is a classic binary classification problem.
 
 ## 🚀 Deployment
 
-### 🔐 ngrok Authentication
+### 🌐 Streamlit + ngrok Setup:
 
 Before using ngrok for the first time, you'll need to log in and set up your **auth token**:
 
@@ -77,9 +73,6 @@ Before using ngrok for the first time, you'll need to log in and set up your **a
 
 ```bash
 ngrok config add-authtoken <your-auth-token>
-
-
-### 🌐 Streamlit + ngrok Setup:
 ```bash
 # Run Streamlit app
 streamlit run app.py
