@@ -67,19 +67,19 @@ This is a classic binary classification problem.
 
 ## 🚀 Deployment
 
-### 🌐 Streamlit + ngrok Setup:
+### 🔐 ngrok Authentication
 
-🔐 ngrok Authentication
-Before using ngrok for the first time, you'll need to log in and set up your auth token:
-Step 1: Login or sign up at ngrok.com
-Step 2: Copy your auth token from your ngrok dashboard
+Before using ngrok for the first time, you'll need to log in and set up your **auth token**:
 
-Step 3: Authenticate ngrok in your terminal
+1. **Login or sign up** at [https://ngrok.com](https://ngrok.com)
+2. **Copy your auth token** from your [ngrok dashboard](https://dashboard.ngrok.com/get-started/setup)
+3. **Authenticate ngrok** in your terminal:
+
+```bash
 ngrok config add-authtoken <your-auth-token>
-This step is required only once to link your ngrok account with your local system.
 
 
-
+### 🌐 Streamlit + ngrok Setup:
 ```bash
 # Run Streamlit app
 streamlit run app.py
